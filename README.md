@@ -11,7 +11,7 @@
 ## Getting Started
 
 System Requirements
-Python 2.7
+Python 3 + 
 Ubuntu linux
 
 ## Backend - Flask
@@ -37,9 +37,9 @@ id, name, value, created_at
 
 Installing Flask,rsa encryption library, CORS and GraphQL dependencies
 
-pip2 install flask
+pip install flask
 
-pip2 install flask-graphql flask-migrate flask-sqlalchemy graphene graphene-sqlalchemy Flask-GraphQL  flask_cors rsa
+pip install flask-graphql flask-migrate flask-sqlalchemy graphene graphene-sqlalchemy Flask-GraphQL  flask_cors rsa
 
 Project creation steps
 export FLASK_DEBUG=True - Enable changes to reflect on reload. 
